@@ -1,0 +1,27 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.first__row {
+  padding: 2%;
+  margin-bottom: -44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.second__row {
+  padding: 2% 2% 5% 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.first__row > button {
+  padding: 5px;
+}
+.second__row > button {
+  padding: 5px;
+}

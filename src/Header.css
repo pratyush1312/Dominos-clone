@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  width: 100%;
+}
+
+.header__left {
+  display: flex;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+}
+
+.header__center > h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #708aa5;
+  margin: 13px;
+  font-weight: 640;
+  cursor: pointer;
+}
+
+.header__center > h3:hover {
+  color: #0073aa;
+}
+
+.header__left > img {
+  z-index: -1;
+  object-fit: contain;
+  height: 100px;
+  width: 100%;
+}
+
+.header__right > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__rightButton {
+  width: 148px;
+  height: 45px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #f3223b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.footer {
+  background-color: #222e3a;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 2% 5% 2%;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #546273;
+  font-size: 20px;
+}
+
+.footer__first > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  list-style-type: none;
+}
+
+.footer__first > ul > li {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.footer__second > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  list-style-type: none;
+}
+
+.footer__second > ul > li {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.footer__third > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  list-style-type: none;
+}
+
+.footer__third > ul > li {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.footer__fourth > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  list-style-type: none;
+}
+
+.footer__fourth > ul > li {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.footer__fifth > img {
+  margin-top: 20px;
+}
+
+.footer__fifthIcons {
+  display: flex;
+  justify-content: space-between;
+}

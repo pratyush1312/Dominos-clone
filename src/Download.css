@@ -1,0 +1,46 @@
+.download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  background-color: #f2f5fc;
+}
+
+.download__left {
+  display: flex;
+}
+
+.download__right {
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.download__right > h2 {
+  color: #59688c;
+  margin-bottom: 10px;
+  /* text-align: left; */
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+
+.download__right > h3 {
+  color: #a399c0;
+  margin: 5px;
+  text-align: left;
+  font-weight: 450;
+  font-size: 2rem;
+}
+
+.download__rightIcon {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.download__rightIcon > img {
+  margin: 5px;
+}

@@ -1,0 +1,27 @@
+.offers {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+
+.offers > h2 {
+  font-size: 32px;
+  color: #708aa5;
+  font-weight: 750;
+  margin-bottom: 5px;
+}
+
+.offers__images {
+  display: flex;
+  object-fit: contain;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.offers__images > img {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 100%; */
+  margin: 10px;
+  height: 20rem;
+}
