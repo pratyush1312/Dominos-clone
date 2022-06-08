@@ -65,7 +65,7 @@ function Footer() {
         <img
           src="https://www.dominos.co.in/assets/hello_dominos_20210615.png"
           alt=""
-        ></img>
+         />
       </div>
     </div>
   );

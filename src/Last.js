@@ -5,7 +5,7 @@ function Last() {
   return (
     <div className="last__section">
       <small>All Rights Reserved. CopyrightⒸ Jubliant FoodWorks Ltd.</small>
-      <br></br>
+      <br />
       <small>Made By: Pratyush Pandey</small>
     </div>
   );
